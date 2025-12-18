@@ -1,0 +1,18 @@
+# 가상환경
+venv/
+.venv/
+
+# 맥 시스템 파일
+.DS_Store
+
+# 보안 및 설정 파일
+.env
+*.swp
+
+# 에어플로우 실행 데이터
+logs/
+temp/
+
+# 파이썬 캐시
+__pycache__/
+*.py[cod]
