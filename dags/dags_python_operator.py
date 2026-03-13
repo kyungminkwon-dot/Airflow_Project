@@ -2,6 +2,7 @@ from airflow import DAG
 import pendulum
 import datetime
 from airflow.operators.python import PythonOperator
+import random
 
 with DAG(
     dag_id="dags_python_operator",
